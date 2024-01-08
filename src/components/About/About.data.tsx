@@ -1,89 +1,47 @@
-export const dataCounter = [
-    {
-      id: 0,
-      endCounter: 10,
-      text: "Años de experiencia",
-      lineRight: true,
-      lineRightMobile: true,
-    },
-    {
-      id: 1,
-      endCounter: 80,
-      text: "Clientes satisfechos",
-      lineRight: true,
-      lineRightMobile: false,
-    },
-    {
-      id: 2,
-      endCounter: 220,
-      text: "Proyectos finalizados",
-      lineRight: true,
-      lineRightMobile: true,
-    },
-    {
-      id: 3,
-      endCounter: 30,
-      text: "Premios ganadores",
-      lineRight: false,
-      lineRightMobile: false,
-    },
-  ];
-  
-  export const dataAboutSkills = [
-    {
-      id: 0,
-      text: "Skills",
-      skills: [
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript, SiRedux, SiTailwindcss, SiExpress } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi"
+
+export const dataAboutSkills = [
         {
-          title: "Frontend Developer",
-          date: "2017",
+          title: "JavaScript",
+          icon: <IoLogoJavascript />,
         },
         {
-          title: "Full Stack Developer",
-          date: "2020",
-        },
-      ],
-    },
-    {
-      id: 1,
-      text: "Experiencia",
-      skills: [
-        {
-          title: "Netflix Inc.",
-          date: "2015",
+          title: "TypeScript",
+          icon: <SiTypescript />,
         },
         {
-          title: "Amazon",
-          date: "2020",
-        },
-      ],
-    },
-    {
-      id: 2,
-      text: "Estudios",
-      skills: [
-        {
-          title: "Grado Universitario en Florida",
-          date: "2012-2016",
+          title: "React",
+          icon: <FaReact />,
         },
         {
-          title: "Máster desarrollo Frontend",
-          date: "2016-2018",
-        },
-      ],
-    },
-    {
-      id: 3,
-      text: "Masters",
-      skills: [
-        {
-          title: "Frontend Developer",
-          date: "2017",
+          title: "Redux",
+          icon: <SiRedux />,
         },
         {
-          title: "Full Stack Developer",
-          date: "2020",
+          title: "HTML",
+          icon: <FaHtml5 />,
         },
-      ],
-    },
+        {
+          title: "CSS",
+          icon: <FaCss3Alt />,
+        },
+        {
+          title: "Tailwind CSS",
+          icon: <SiTailwindcss />,
+        },
+        {
+          title: "Node.js",
+          icon: <FaNodeJs />,
+        },
+        {
+          title: "Express.js",
+          icon: <SiExpress />,
+        },
+        {
+          title: "PostgreSQL",
+          icon: <BiLogoPostgresql />,
+        },
   ];

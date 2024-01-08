@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col justify-center items-center min-h-screen bg-transparent text-white p-4"
+      className="flex flex-col justify-center items-center mt-36 bg-transparent text-white p-4"
     >
       <h1 className="flex justify-center items-center text-4xl mb-10">Trabajemos juntos</h1>
       <label className="w-96 mb-4">
@@ -74,7 +74,7 @@ const Contact = () => {
       <button
         type="submit"
         disabled={!isFormValid}
-        className={`w-96 bg-white text-black px-4 py-2 rounded-md hover:bg-gray-300 focus:outline-none ${
+        className={`w-96 mb-10 bg-white text-black px-4 py-2 rounded-md hover:bg-gray-300 focus:outline-none ${
           isFormValid ? '' : 'opacity-50 cursor-not-allowed'
         }`}
       >

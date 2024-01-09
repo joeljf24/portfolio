@@ -1,6 +1,7 @@
 import { SiTailwindcss, SiGithub, SiMongodb, SiReact, SiNextdotjs, SiTestinglibrary } from "react-icons/si";
 import { TbWorld } from "react-icons/tb"
 import { MdOndemandVideo } from "react-icons/md";
+import { ImImages } from "react-icons/im"
 
 export const cardContent = [
     {
@@ -27,6 +28,10 @@ export const cardContent = [
                 icon: <SiGithub size="40" />,
                 href: "https://github.com/CursosYoAprendo/Yo_Aprendo"
             },
+            {
+                icon: <ImImages size="40" />,
+                href: "https://drive.google.com/drive/folders/1XCrTKK3u5z-GUHiecG2rsMQS9R38hNn2?usp=sharing"
+            },
         ]
     },
     {
@@ -47,7 +52,7 @@ export const cardContent = [
         title: "Landing Page Application",
         description:
             "Landing page piloto",
-        imageUrl: "/work-2.jpeg",
+        imageUrl: "https://cdn.discordapp.com/attachments/1111334962361274408/1194101186236797038/image.png?ex=65af2064&is=659cab64&hm=7db46eb9b245b08965c6dc73e3ebd837bd2276279b189106bec296dd625336d4&",
         skills: [
             {
                 icon: <SiGithub size="40" />,

@@ -1,9 +1,11 @@
 import Contact from "@/components/Contact/Contact";
+import { Transition } from "@/components/Transition/Transition";
 
 
 const ContactPage = () => {
   return (
     <div className="flex flex-col">
+      <Transition />
       <Contact />
       <a href="mailto:u.programming.jf@gmail.com"
       className="flex justify-center">

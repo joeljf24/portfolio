@@ -6,42 +6,42 @@ import { BiLogoPostgresql } from "react-icons/bi"
 export const dataAboutSkills = [
         {
           title: "JavaScript",
-          icon: <IoLogoJavascript />,
+          icon: <IoLogoJavascript size="40" />,
         },
         {
           title: "TypeScript",
-          icon: <SiTypescript />,
+          icon: <SiTypescript size="40" />,
         },
         {
           title: "React",
-          icon: <FaReact />,
+          icon: <FaReact size="40" />,
         },
         {
           title: "Redux",
-          icon: <SiRedux />,
+          icon: <SiRedux size="40" />,
         },
         {
           title: "HTML",
-          icon: <FaHtml5 />,
+          icon: <FaHtml5 size="40" />,
         },
         {
           title: "CSS",
-          icon: <FaCss3Alt />,
+          icon: <FaCss3Alt size="40" />,
         },
         {
           title: "Tailwind CSS",
-          icon: <SiTailwindcss />,
+          icon: <SiTailwindcss size="40" />,
         },
         {
           title: "Node.js",
-          icon: <FaNodeJs />,
+          icon: <FaNodeJs size="40" />,
         },
         {
           title: "Express.js",
-          icon: <SiExpress />,
+          icon: <SiExpress size="40" />,
         },
         {
           title: "PostgreSQL",
-          icon: <BiLogoPostgresql />,
+          icon: <BiLogoPostgresql size="40" />,
         },
   ];
